@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+html * {
+    font-family: "Plus Jakarta Sans", sans-serif;   
+}
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    background-color: #43936C;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.3s ease;
+}
+
+.link-nav-text {
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.3s ease;
+}
+
+.link-nav-text:hover {
+    color: #C0DBCE;
+    transition: 0.3s ease;
+}
+
+.link-nav-text:active {
+    transform: scale(0.92);
+    transition: 0.3s ease;
+}
+
+.link-nav-text:focus {
+    transform: scale(0.5);
+    transition: 0.3s ease;
+}
+
+.sticky-nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    right: 50%;
+    left: 50%;
+}
+
+.fw-sm {
+    font-weight: 200;
+}
+
+.fw-df {
+    font-weight: 400;
+}
+
+.fw-md {
+    font-weight: 500;
+}
+
+.fw-lg {
+    font-weight: 600;
+}
+
+.fw-xl {
+    font-weight: 700;
+}
+
+.ellipse-left {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.ellipse-center {
+    position: absolute;
+    z-index: -1;
+}
+
+.ellipse-right {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+
+}
+
+.vl {
+    border: 1px solid rgb(255, 255, 255);
+    height: 110px;
+  }
