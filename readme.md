@@ -1,7 +1,8 @@
 
 ![Logo](assets/finelfy.png)
 
-https://img.shields.io/badge/Bootstrap-5.2.0-blue https://img.shields.io/badge/Platform-Website-green
+https://img.shields.io/badge/Bootstrap-5.2.0-blue 
+https://img.shields.io/badge/Platform-Website-green
 
 # FINELIFY
 
