@@ -89,3 +89,132 @@ ul {
     border: 1px solid rgb(255, 255, 255);
     height: 110px;
   }
+
+
+.login{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+section .imgbx{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+section .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .contentbx {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 28%;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+
+section .contentbx .formbx {
+    width: 80%;
+}
+
+section .contentbx .formbx h2 {
+    color: #214936;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+
+}
+
+section .contentbx .formbx .inputbx {
+    margin-bottom: 10px;
+
+}
+
+.forgot a {
+    font-size: 14px;
+    color: #214936;
+    
+}
+
+.inputbx a{
+    color: #214936;
+}
+
+section .contentbx .formbx .continue p{
+    padding-left: 42%;
+}
+
+section .contentbx .formbx .inputbx span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #214936;
+    font-weight: 500;
+}
+
+section .contentbx .formbx .agree{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section .contentbx .formbx .inputbx input{
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 1px solid black;
+    outline: none;
+    border: none;
+} 
+
+section .contentbx .formbx .inputbx input[type="submit"]{
+    background: #43936C;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: medium;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+section .contentbx .formbx .inputbx input[type="submit"]:hover{
+    background: #347153;
+}
+
+.inputbx .btn{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #214936;
+}
+
+
+.btn img{
+    width: 40px;
+    height: 40px;
+}
+
+.inputbx p{
+    margin-top: 15px;
+    padding-left: 30%;
+}
+
+
+
+
