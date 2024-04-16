@@ -13,7 +13,7 @@
 
 ## Link
 
- - Design : [https://www.figma.com/](https://www.figma.com/file/LCnsj0QNUt8yPSvmyFZj2F/Wireframe-%26-Prototype?type=design&node-id=2%3A2&mode=design&t=KrCnOrajRH65Pwd2-1)
+ - Design : [https://www.figma.com](https://www.figma.com/file/LCnsj0QNUt8yPSvmyFZj2F/Wireframe-%26-Prototype?type=design&node-id=2%3A2&mode=design&t=KrCnOrajRH65Pwd2-1)
  - Source Code : [https://github.com/hexafour](https://github.com/hexafour-micro-project/finelify)
 
 
