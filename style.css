@@ -37,6 +37,7 @@ ul {
     transition: 0.3s ease;
 }
 
+
 .sticky-nav {
     position: fixed;
     display: flex;
@@ -45,6 +46,13 @@ ul {
     z-index: 1;
     right: 50%;
     left: 50%;
+}
+
+nav .mt-3 a{
+    text-decoration: none;
+    color: #214936;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .fw-sm {
@@ -180,6 +188,34 @@ section .contentbx .formbx .inputbx input{
     border: none;
 } 
 
+.inputbx .submit{
+    background: #43936C;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: medium;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.inputbx .submit:hover{
+    background: #347153;
+}
+
+.inputbx .btn{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #214936;
+}
+
 section .contentbx .formbx .inputbx input[type="submit"]{
     background: #43936C;
     color: #fff;
@@ -195,13 +231,10 @@ section .contentbx .formbx .inputbx input[type="submit"]:hover{
     background: #347153;
 }
 
-.inputbx .btn{
-    width: 100%;
-    background-color: transparent;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-top: 10px;
-    border: 1px solid #214936;
+
+.inputbx .submit a{
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -215,6 +248,184 @@ section .contentbx .formbx .inputbx input[type="submit"]:hover{
     padding-left: 30%;
 }
 
+.carousel{
+    background-color: #e4f3ed;
+}
+
+.text-center h1{
+    color:#214936;
+    padding-top: 50px;
+    font-weight: 600;
+}
+
+.text-center .text1{
+    padding-top: 15px;
+    font-weight: 500;
+    color: #214936;
+}
+
+.text-center img{
+    padding-top: 50px;
+}
+
+.text-center h2{
+    padding-top: 40px;
+    color: #214936;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.text-center .text2{
+    padding-top: 15px;
+}
+
+.dot-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px; 
+}
+  
+.dot:first-child {
+    width: 40px; 
+    border-radius: 20%;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 95%;
+    margin: 0 5px 50px 5px; 
+}
+
+.bg-primary {
+  background: #2C5148;
+}
+
+.bg-secondary {
+  background: #7d9a93;
+}
+
+.education{
+    background: #e4f3ed;
+}
+
+.education .text-center h1{
+    margin-top: 60px;
+}
+
+.education .text-center .text1{
+    margin-top: 40px;
+}
 
 
+.text-center .lanjut{
+    border-radius: 50px;
+    border: 1px solid #347153;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.text-center .lanjut:hover{
+    background-color: #347153;
+}
+
+.text-center .lanjut a:hover{
+    color: #fff;
+}
+
+.text-center .lanjut a{
+    text-decoration: none;
+    color: #214936;
+}
+
+.mainpage h1{
+    margin-left: 45px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+
+.artikelcard .kategori{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.artikelcard .kategori li{
+    display: inline-block;
+    margin-left: 45px;
+    
+}
+
+.artikelcard .kategori li a{
+    text-decoration: none;
+    color: #2C5148;
+}
+
+.underline{
+    border-bottom: 2px solid #214936;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+
+}
+
+.card{
+    width: 35%;
+    background: #ff0000;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px rgb(0, 0, 0 0.3);
+    overflow: hidden;
+
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2C5148;
+}
+
+.card-content p{
+    color: #2C5148;
+    margin-bottom: 20px;
+}
+
+.card-content a img{
+    width: 25px;
+    padding-left: 5px;
+}
+
+.card-button{
+    display: inline-block;
+    color: #2C5148;
+    text-decoration: none;
+    border-radius: 90px;
+    background-color: transparent;
+    padding: 8px 16px;
+    border: 1px solid #2C5148;
+    margin-left: 75%;
+}
 
